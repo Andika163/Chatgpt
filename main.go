@@ -35,7 +35,7 @@ const (
 
 func main() {
 	var err error
-	bot, err = linebot.New(os.Getenv("ChannelSecret"), os.Getenv("ChannelAccessToken"))
+	bot, err = linebot.New(os.Getenv("5fad6265076d778e68cedd5358717d2b"), os.Getenv("YcPluzzlLY5nbupINDg467i30KPk04oLfxa8oUoX2bQMmmcD/td4FK2NPQeBVs8UoC5H1xs6fXuX1zJmH7ofVGTP/lX7WqRQ2qhYPEuVZPlAAEOfGUMzzF1v+7npcaMi7uzo3yJ1wNvBvAK+JTJaIAdB04t89/1O/w1cDnyilFU="))
 	log.Println("Bot:", bot, " err:", err)
 
 	port := os.Getenv("PORT")
