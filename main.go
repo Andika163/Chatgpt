@@ -39,7 +39,7 @@ func main() {
 	log.Println("Bot:", bot, " err:", err)
 
 	port := os.Getenv("PORT")
-	apiKey := os.Getenv("ChatGptToken")
+	apiKey := os.Getenv("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")
 
 	if apiKey != "" {
 		client = gpt3.NewClient(apiKey)
